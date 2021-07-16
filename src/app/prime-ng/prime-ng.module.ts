@@ -5,6 +5,9 @@ import {ButtonModule} from 'primeng/button';
 import {CardModule} from 'primeng/card';
 import {MenubarModule} from 'primeng/menubar';
 import {FieldsetModule} from 'primeng/fieldset';
+import {ToolbarModule} from 'primeng/toolbar';
+import {TableModule} from 'primeng/table';
+// import * as i5 from "@angular/cdk/scrolling";
 
 
 @NgModule({
@@ -13,7 +16,9 @@ import {FieldsetModule} from 'primeng/fieldset';
     ButtonModule,
     CardModule,
     MenubarModule,
-    FieldsetModule
+    FieldsetModule,
+    ToolbarModule,
+    TableModule
   ]
 })
 export class PrimeNgModule { }
